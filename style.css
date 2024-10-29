@@ -1,40 +1,13 @@
-.page-wrapper {
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body {
+    display: flex;
 }
 
 .intro {
-
+    display: flex;
+    align-self: center;
 }
-
-.summary {
-
-}
-
-.preamble {
-
-}
-
-.main {
-
-}
-
-.supporting {
-
-}
-
-.explanation {
-
-}
-
-.participation {
-
-}
-
-.benefits {
-
-}
-
-.requirements {
-
-}
-
