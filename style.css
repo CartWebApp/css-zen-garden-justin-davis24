@@ -1,13 +1,39 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+@font-face {
+    font-family: 'MontserratAlternates';
+    src: url('/fonts/MontserratAlternates-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter.ttf');
 }
 
 body {
     display: flex;
 }
 
-.intro {
+[role=banner] {
     display: flex;
-    align-self: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+abbr {
+    font-family: 'MontserratAlternates';
+    font-size: 16px;
+}
+
+h2 abbr {
+    font-size: 24px;
+    transform: rotate(90deg);
+}
+
+h1, h2 {
+    font-size: 24px;
 }
