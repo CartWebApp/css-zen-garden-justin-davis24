@@ -5,7 +5,7 @@
     font-size: 16px;
 }
 @font-face {
-    font-family: 'MontserratAlternates';
+    font-family: 'MontAlt';
     src: url('/fonts/MontserratAlternates-LightItalic.ttf');
 }
 
@@ -14,8 +14,16 @@
     src: url('/fonts/Inter.ttf');
 }
 
+@font-face {
+    font-family: 'LostFish';
+    src: url('/fonts/LostFish.ttf')
+}
+
 body {
     display: flex;
+    background-image: url('/images/Zen-Garden.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 [role=banner] {
@@ -25,15 +33,23 @@ body {
 }
 
 abbr {
-    font-family: 'MontserratAlternates';
+    font-family: 'MontAlt';
     font-size: 16px;
 }
 
 h2 abbr {
-    font-size: 24px;
-    transform: rotate(90deg);
+    font-size: 35px;
 }
 
 h1, h2 {
-    font-size: 24px;
+    font-family: 'LostFish';
+    font-size: 70px;
+}
+
+header {
+    background-color: white;
+}
+
+h2 {
+    font-size: 35px;
 }
