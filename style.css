@@ -53,3 +53,8 @@ header {
 h2 {
     font-size: 35px;
 }
+#zen-preamble {
+    display: flex;
+    background-color: white;
+}
+
